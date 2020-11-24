@@ -29,7 +29,7 @@ def train_anomaly_detector(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 #original code parser.add_argument('--lr', default=0.001, type=float)
-    parser.add_argument('--lr', default=0.1, type=float)
+    parser.add_argument('--lr', default=0.01, type=float)
     parser.add_argument('--n_rots', default=32, type=int)
 #below line code is modified line code.
 #    parser.add_argument('--batch_size', default=16, type=int)
