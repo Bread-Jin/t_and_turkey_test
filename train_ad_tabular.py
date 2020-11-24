@@ -32,7 +32,7 @@ if __name__ == '__main__':
 #original code parser.add_argument('--lr', default=0.001, type=float)
     parser.add_argument('--n_rots', default=32, type=int)
 #below line code is modified line code.
-    parser.add_argument('--batch_size', default=64, type=int)
+    parser.add_argument('--batch_size', default=128, type=int)
 #original code    parser.add_argument('--batch_size', default=64, type=int)
     parser.add_argument('--n_epoch', default=25, type=int)
     parser.add_argument('--d_out', default=4, type=int)
