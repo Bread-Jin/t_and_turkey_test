@@ -58,6 +58,22 @@ class netC1(nn.Module):
         nn.Conv1d(ndf, ndf, kernel_size=1, bias=False),
         nn.LeakyReLU(0.2),
         nn.Conv1d(ndf, ndf, kernel_size=1, bias=False),
+        nn.LeakyReLU(0.2),
+        nn.Conv1d(ndf, ndf, kernel_size=1, bias=False),
+        nn.LeakyReLU(0.2),
+        nn.Conv1d(ndf, ndf, kernel_size=1, bias=False),
+        nn.LeakyReLU(0.2),
+        nn.Conv1d(ndf, ndf, kernel_size=1, bias=False),
+        nn.LeakyReLU(0.2),
+        nn.Conv1d(ndf, ndf, kernel_size=1, bias=False),
+        nn.LeakyReLU(0.2),
+        nn.Conv1d(ndf, ndf, kernel_size=1, bias=False),
+        nn.LeakyReLU(0.2),
+        nn.Conv1d(ndf, ndf, kernel_size=1, bias=False),
+        nn.LeakyReLU(0.2),
+        nn.Conv1d(ndf, ndf, kernel_size=1, bias=False),
+        nn.LeakyReLU(0.2),
+        nn.Conv1d(ndf, ndf, kernel_size=1, bias=False),
         )
         """
        self.trunk = nn.Sequential(
